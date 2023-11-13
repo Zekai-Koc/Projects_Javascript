@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple synchronous JavaScript example</title>
+  </head>
+  <body>
+    <button>Click me</button>
+    <script>
+      const btn = document.querySelector('button');
+      btn.addEventListener('click', () => {
+
+        console.log("function started to run...");
+
+        let myDate;
+
+        // BLOCKING BODY
+        for(let i = 0; i < 30000000; i++) {
+          let date = new Date();
+          myDate = date
+        }
+
+        console.log(myDate);
+
+        let pElem = document.createElement('p');
+        pElem.textContent = 'This is a newly-added paragraph.';
+        document.body.appendChild(pElem);
+
+        console.log("function ended...");
+
+      });
+    </script>
+  </body>
+</html>
+
+<!-- In our example, we add a click event listener to a button so that when clicked, it runs a time-consuming operation (calculates 10 million dates then logs the final one to the console) and then adds a paragraph to the DOM:
+
+When running the example, you'll notice that the paragraph does not appear until after the dates have finished being calculated and the console message has been logged. The code runs in the order it appears in the source, and the later operation doesn't run till the earlier operation has finished running. -->
