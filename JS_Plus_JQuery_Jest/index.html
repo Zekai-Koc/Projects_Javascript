@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+
+    <!-- <script src="jquery-3.6.0.min.js"></script> -->
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <!-- <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script> -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    <!-- <script>
+        alert(document.getElementById("p1").innerHTML);
+
+        function pageOnLoad() {
+            alert(document.getElementById("p1").innerHTML);
+        }
+
+    </script> -->
+
+    <!-- <style>
+        .green {
+            color: green;
+            font-style: italic;
+        }
+
+        .red {
+            background-color: red;
+        }
+    </style> -->
+
+</head>
+
+<!-- <body onload="pageOnLoad()"> -->
+
+<body>
+    <h1>Using jQuery</h1>
+
+
+    <!-- ---------- syntax and selectors ------------ -->
+
+    <!------------------ 1 ------------------>
+    <!-- <p id="p1">First para: this para has ID: "p1" <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia illo neque impedit repudiandae alias
+        dignissimos est iusto id tenetur optio culpa minima a facilis aliquam, laborum dicta deserunt esse minus?</p>
+
+    <p class="paraf">Second para: this para has CLASS: "paraf" <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cupiditate dolor vero voluptas, nulla dolorum fugiat
+        aliquid rem possimus fuga, consectetur obcaecati veritatis totam odit assumenda, hic voluptatibus repudiandae
+        molestias.</p>
+
+    <p>Third para: this para has NO ATTR.: <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cupiditate dolor vero voluptas, nulla dolorum fugiat
+        aliquid rem possimus fuga, consectetur obcaecati veritatis totam odit assumenda, hic voluptatibus repudiandae
+        molestias.</p> -->
+
+
+    <!------------------ 2 ------------------>
+
+    <!-- <ul>
+        <li>Lorem ipsum</li>
+        <li>dolor sit </li>
+        <li>amet consectetur</li>
+    </ul>
+
+    <ul class="list">
+        <li>Lorem ipsum</li>
+        <li>dolor sit </li>
+        <li>amet consectetur</li>
+    </ul> -->
+
+
+
+    <!------------------ Effects ------------------>
+    <!------------------ 1 ------------------>
+
+    <!-- <button id="hide">Hide</button>
+    <button id="show">Show</button>
+
+    <hr> -->
+
+    <!-- p*3>lorem11 -->
+
+    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis.</p>
+
+    <p>Nam soluta neque consequuntur totam quidem pariatur cumque mollitia!</p>
+
+    <p>Tempore in officiis temporibus culpa maxime placeat perspiciatis doloribus?</p> -->
+
+
+    <!------------------ 2 ------------------>
+
+    <!-- <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <button id="toggle">Toggle</button>
+
+    <hr>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis.</p>
+
+    <p>Nam soluta neque consequuntur totam quidem pariatur cumque mollitia!</p>
+
+    <p>Tempore in officiis temporibus culpa maxime placeat perspiciatis doloribus?</p> -->
+
+
+    <!------------------ 3 ------------------>
+
+    <!-- <button id="fadein">Fade In</button>
+    <button id="fadeout">Fade Out</button>
+    <button id="fadetoggle">Fade Toggle</button>
+
+    <hr>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis.</p>
+
+    <p>Nam soluta neque consequuntur totam quidem pariatur cumque mollitia!</p>
+
+    <p>Tempore in officiis temporibus culpa maxime placeat perspiciatis doloribus?</p> -->
+
+
+    <!------------------ 4 ------------------>
+
+    <!-- <button id="slideup">Slide Up</button>
+   <button id="slidedown">Slide Down</button>
+   <button id="slidetoggle">Slide Toggle</button>
+
+   <hr>
+
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis.</p>
+
+   <p>Nam soluta neque consequuntur totam quidem pariatur cumque mollitia!</p>
+
+   <p>Tempore in officiis temporibus culpa maxime placeat perspiciatis doloribus?</p> -->
+
+
+    <!------------------ 5 animate ------------------>
+
+    <!-- <button id="animate">Animate</button>
+
+<hr>
+
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis.</p>
+
+<p>Nam soluta neque consequuntur totam quidem pariatur cumque mollitia!</p>
+
+<p>Tempore in officiis temporibus culpa maxime placeat perspiciatis doloribus?</p> -->
+
+
+
+    <!------------------ 6 ------------------>
+
+    <!-- <button id="hide">Hide</button>
+    <button id="show">Show</button>
+    <button id="toggle">Toggle</button>
+    <button id="stop">Stop Animation</button>
+
+    <hr>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis.</p>
+
+    <p>Nam soluta neque consequuntur totam quidem pariatur cumque mollitia!</p>
+
+    <p>Tempore in officiis temporibus culpa maxime placeat perspiciatis doloribus?</p> -->
+
+
+
+    <!------------------ Get/Set methods ------------------>
+    <!------------------ 1 Get Methods ------------------>
+
+
+    <!-- <button id="btnGetHtml">Get HTML</button>
+    <button id="btnGetText">Get Text</button>
+    <button id="btnGetValue">Get Value</button>
+    <hr>
+
+    <p>
+        <b>Lorem ipsum dolor</b> sit amet consectetur adipisicing elit. Veniam, voluptatem dignissimos. Voluptas aut
+        aspernatur
+        unde?
+    </p>
+
+    <input type="text" name="" id="" value=""> -->
+
+
+
+    <!------------------ 2 Set Methods ------------------>
+
+
+    <!-- <button id="btnGetHtml">Get HTML</button>
+    <button id="btnGetText">Get Text</button>
+    <button id="btnGetValue">Get Value</button>
+    <hr>
+    <button id="btnSetHtml">Set HTML</button>
+    <button id="btnSetText">Set Text</button>
+    <button id="btnSetValue">Set Value</button>
+    <hr>
+
+    <select id="cities">
+        <option value="06">Ankara</option>
+        <option value="34">İstanbul</option>
+        <option value="35">İzmir</option>
+    </select>
+
+    <button id="btnGetCity">Get Selected City</button>
+
+    <p>
+        <b>Lorem ipsum dolor</b> sit amet consectetur adipisicing elit. Veniam, voluptatem dignissimos. Voluptas aut
+        aspernatur
+        unde?
+    </p>
+
+    <input type="text" name="" id="" value="">
+
+    <input type="radio" name="gender" value="man"><span>Man</span>
+    <input type="radio" name="gender" value="woman"><span>Women</span>
+    <button id="btnGetGender">Get Gender</button> -->
+
+
+
+
+    <!------------------ Add/Remove Methods ------------------>
+    <!------------------ Append/Prepend ------------------>
+
+    <!-- <h3>Todo List</h3> 
+    <br>
+    <input type="text" id="todoText" placeholder="todo text">
+    <hr>
+    <button id="btnAppend">Add to End</button>
+    <button id="btnPrepend">Add to Beginning</button>
+    <hr>
+    <ul id="todoList">
+    </ul> -->
+
+    <!------------------ Before/After ------------------>
+
+    <!-- <h3>Todo List</h3> 
+    <br>
+    <input type="text" id="todoText" placeholder="todo text">
+    <hr>
+    <button id="btnAddBefore">Add Before</button>
+    <button id="btnAddAfter">Add After</button>
+    <hr>
+    <ul id="todoList">
+        <li id="item1">Lorem, ipsum dolor.</li>
+        <li id="item2">Lorem, ipsum dolor.</li>
+        <li id="item3">Lorem, ipsum dolor.</li>
+    </ul> -->
+
+
+    <!------------------- Class&CSS Addings ------------------->
+
+    <!-- <style>
+        .green {
+            color: green;
+            font-style: italic;
+        }
+
+        .red {
+            background-color: red;
+        }
+    </style>
+
+
+    <button id="btnAddClass">Add Class</button>
+    <button id="btnRemoveClass">Remove Class</button>
+    <button id="btnToggleClass">Toggle Class</button>
+    <button id="btnCss">Custom CSS</button>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit fuga id odio aliquam voluptates. Accusantium alias
+        excepturi libero numquam, eligendi soluta, possimus explicabo beatae doloremque ducimus provident! Facere,
+        tempora deleniti!</p> -->
+
+
+
+    <!-------------------Traversing ------------------->
+    <!-- 
+    <style>
+        .bold {
+            font-weight: bold;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .color {
+            color: aqua;
+        }
+
+        .bg {
+            background-color: darkslateblue;
+        }
+
+        .list-item {
+            border: 2px dashed darkgray;
+            padding: 5px;
+            margin: 3px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li {
+            width: 200px;
+            cursor: pointer;
+        }
+    </style>
+
+
+    <button type="button">Reset</button>
+    <hr>
+
+    <ul id="options">
+        <li>Bold</li>
+        <li>Italic</li>
+        <li>Underline</li>
+        <li>Color</li>
+        <li>Background</li>
+    </ul> -->
+
+
+
+    <!------------------- Ajax Calls ------------------->
+
+    <button id="btnLoadData">Load Data</button>
+
+    <ul id="list">
+
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
