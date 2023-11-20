@@ -1,0 +1,21 @@
+.photo {
+    height: 200px;
+    width: 300px;
+    border: 5px solid goldenrod;
+    border-radius: 5px;
+}
+
+.filter-button {
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: goldenrod;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.filter-button:hover {
+    background-color: yellow;
+  }
